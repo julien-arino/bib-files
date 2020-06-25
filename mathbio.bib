@@ -1,0 +1,617 @@
+% This file was created with JabRef 2.8.
+% Encoding: Cp1252
+
+@ARTICLE{BallykMccluskeyWolkowicz2005,
+  author = {Ballyk, M.M. and McCluskey, C.C and Wolkowicz, G.S.K.},
+  title = {Global analysis of competition for perfectly substitutable resources
+	with linear response},
+  journal = {Journal of Mathematical Biology},
+  year = {2005},
+  note = {Online First version, http://dx.doi.org/10.1007/s00285-005-0333-7}
+}
+
+@ARTICLE{CaiWen_2009,
+  author = {Cai, Xiaodong and Wen, Ji},
+  title = {Efficient exact and K-skip methods for stochastic simulation of coupled
+	chemical reactions.},
+  journal = {J Chem Phys},
+  year = {2009},
+  volume = {131},
+  pages = {064108},
+  number = {6},
+  month = {Aug},
+  __markedentry = {[jarino:]},
+  abstract = {Gillespie's direct method (DM) [D. Gillespie, J. Chem. Phys. 81, 2340
+	(1977)] for exact stochastic simulation of chemical reaction systems
+	has been widely adopted. It is easy to implement but requires large
+	computation for relatively large systems. Recently, two more efficient
+	methods, next reaction method (NRM) [M. A. Gibson and J. Bruck, J.
+	Phys. Chem. A 105, 1876 (2000)] and optimized DM (ODM) [Y. Cao et
+	al., J. Chem. Phys. 121, 4059 (2004)], have been developed to improve
+	simulation speed. It has been demonstrated that the ODM is the state-of-the-art
+	most efficient method for exact stochastic simulation of most practical
+	reaction systems. In this paper, we first develop an exact stochastic
+	simulation algorithm named ODMK that is more efficient than the ODM.
+	We then develop an approximate method named K-skip method to further
+	accelerate simulation. Using two chemical reaction systems, we demonstrate
+	that our ODMK and K-skip method can save 20\%-30\% and 70\%-80\%
+	simulation time, respectively, comparing to the ODM. We also show
+	that our ODMK and K-skip method provide almost the same simulation
+	accuracy as the ODM.},
+  doi = {10.1063/1.3204422},
+  institution = {Department of Electrical and Computer Engineering, University of
+	Miami, Coral Gables, Florida 33124, USA. x.cai@miami.edu},
+  keywords = {Algorithms; Computer Simulation; Dimerization; Gene Expression; Lac
+	Operon; Membrane Transport Proteins, genetics; Models, Chemical;
+	Stochastic Processes},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jarino},
+  pmid = {19691379},
+  timestamp = {2013.07.22},
+  url = {http://dx.doi.org/10.1063/1.3204422}
+}
+
+@ARTICLE{CaoGillespiePetzold2006,
+  author = {Cao, Y. and Gillespie, D.T. and Petzold, L.R.},
+  title = {Efficient step size selection for the tau-leaping simulation method.},
+  journal = {J Chem Phys},
+  year = {2006},
+  volume = {124},
+  pages = {044109},
+  number = {4},
+  month = {Jan},
+  __markedentry = {[jarino:]},
+  abstract = {The tau-leaping method of simulating the stochastic time evolution
+	of a well-stirred chemically reacting system uses a Poisson approximation
+	to take time steps that leap over many reaction events. Theory implies
+	that tau leaping should be accurate so long as no propensity function
+	changes its value "significantly" during any time step tau. Presented
+	here is an improved procedure for estimating the largest value for
+	tau that is consistent with this condition. This new tau-selection
+	procedure is more accurate, easier to code, and faster to execute
+	than the currently used procedure. The speedup in execution will
+	be especially pronounced in systems that have many reaction channels.},
+  doi = {10.1063/1.2159468},
+  institution = {Department of Computer Science, Virginia Tech, Blacksburg, Virginia
+	24061, USA. ycao@vt.edu},
+  keywords = {Algorithms; Computer Simulation; Models, Biological; Models, Chemical;
+	Poisson Distribution; Stochastic Processes},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jarino},
+  pmid = {16460151},
+  timestamp = {2013.07.22},
+  url = {http://dx.doi.org/10.1063/1.2159468}
+}
+
+@ARTICLE{CaoGillespiePetzold2007,
+  author = {Cao, Yang and Gillespie, Daniel T. and Petzold, Linda R.},
+  title = {Adaptive explicit-implicit tau-leaping method with automatic tau
+	selection.},
+  journal = {J Chem Phys},
+  year = {2007},
+  volume = {126},
+  pages = {224101},
+  number = {22},
+  month = {Jun},
+  __markedentry = {[jarino:]},
+  abstract = {The existing tau-selection strategy, which was designed for explicit
+	tau leaping, is here modified to apply to implicit tau leaping, allowing
+	for longer steps when the system is stiff. Further, an adaptive strategy
+	that identifies stiffness and automatically chooses between the explicit
+	and the (new) implicit tau-selection methods to achieve better efficiency
+	is proposed. Numerical testing demonstrates the advantages of the
+	adaptive method for stiff systems.},
+  doi = {10.1063/1.2745299},
+  institution = {Department of Computer Science, 660 McBryde Hall, Virginia Tech,
+	Blacksburg, Virginia 24061, USA. ycao@cs.vt.edu},
+  keywords = {Algorithms; Computer Simulation; Dimerization; Kinetics; Stochastic
+	Processes},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jarino},
+  pmid = {17581038},
+  timestamp = {2013.07.22},
+  url = {http://dx.doi.org/10.1063/1.2745299}
+}
+
+@ARTICLE{CaoGillespiePetzold2005,
+  author = {Cao, Yang and Gillespie, Daniel T. and Petzold, Linda R.},
+  title = {Accelerated stochastic simulation of the stiff enzyme-substrate reaction.},
+  journal = {J Chem Phys},
+  year = {2005},
+  volume = {123},
+  pages = {144917},
+  number = {14},
+  month = {Oct},
+  __markedentry = {[jarino:]},
+  abstract = {The enzyme-catalyzed conversion of a substrate into a product is a
+	common reaction motif in cellular chemical systems. In the three
+	reactions that comprise this process, the intermediate enzyme-substrate
+	complex is usually much more likely to decay into its original constituents
+	than to produce a product molecule. This condition makes the reaction
+	set mathematically "stiff." We show here how the simulation of this
+	stiff reaction set can be dramatically speeded up relative to the
+	standard stochastic simulation algorithm (SSA) by using a recently
+	introduced procedure called the slow-scale SSA. The speedup occurs
+	because the slow-scale SSA explicitly simulates only the relatively
+	rare conversion reactions, skipping over occurrences of the other
+	two less interesting but much more frequent reactions. We describe,
+	explain, and illustrate this simulation procedure for the isolated
+	enzyme-substrate reaction set, and then we show how the procedure
+	extends to the more typical case in which the enzyme-substrate reactions
+	occur together with other reactions and species. Finally, we explain
+	the connection between this slow-scale SSA approach and the Michaelis-Menten
+	[Biochem. Z. 49, 333 (1913)] formula, which has long been used in
+	deterministic chemical kinetics to describe the enzyme-substrate
+	reaction.},
+  doi = {10.1063/1.2052596},
+  institution = {Department of Computer Science, University of California, Santa Barbara,
+	California 93106, USA. ycao@engineering.ucsb.edu},
+  keywords = {Algorithms; Computer Simulation; Enzymes, metabolism; Models, Theoretical;
+	Stochastic Processes; Substrate Specificity},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jarino},
+  pmid = {16238434},
+  timestamp = {2013.07.22},
+  url = {http://dx.doi.org/10.1063/1.2052596}
+}
+
+@ARTICLE{CaoGillespiePetzold2005a,
+  author = {Cao, Yang and Gillespie, Daniel T. and Petzold, Linda R.},
+  title = {Avoiding negative populations in explicit Poisson tau-leaping.},
+  journal = {J Chem Phys},
+  year = {2005},
+  volume = {123},
+  pages = {054104},
+  number = {5},
+  month = {Aug},
+  __markedentry = {[jarino:]},
+  abstract = {The explicit tau-leaping procedure attempts to speed up the stochastic
+	simulation of a chemically reacting system by approximating the number
+	of firings of each reaction channel during a chosen time increment
+	tau as a Poisson random variable. Since the Poisson random variable
+	can have arbitrarily large sample values, there is always the possibility
+	that this procedure will cause one or more reaction channels to fire
+	so many times during tau that the population of some reactant species
+	will be driven negative. Two recent papers have shown how that unacceptable
+	occurrence can be avoided by replacing the Poisson random variables
+	with binomial random variables, whose values are naturally bounded.
+	This paper describes a modified Poisson tau-leaping procedure that
+	also avoids negative populations, but is easier to implement than
+	the binomial procedure. The new Poisson procedure also introduces
+	a second control parameter, whose value essentially dials the procedure
+	from the original Poisson tau-leaping at one extreme to the exact
+	stochastic simulation algorithm at the other; therefore, the modified
+	Poisson procedure will generally be more accurate than the original
+	Poisson procedure.},
+  doi = {10.1063/1.1992473},
+  institution = {Department of Computer Science, University of California, Santa Barbara,
+	Santa Barbara, California 93106, USA. ycao@engineering.ucsb.edu},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jarino},
+  pmid = {16108628},
+  timestamp = {2013.07.22},
+  url = {http://dx.doi.org/10.1063/1.1992473}
+}
+
+@ARTICLE{CaoGillespiePetzold2005b,
+  author = {Cao, Yang and Gillespie, Daniel T. and Petzold, Linda R.},
+  title = {The slow-scale stochastic simulation algorithm.},
+  journal = {J Chem Phys},
+  year = {2005},
+  volume = {122},
+  pages = {14116},
+  number = {1},
+  month = {Jan},
+  __markedentry = {[jarino:]},
+  abstract = {Reactions in real chemical systems often take place on vastly different
+	time scales, with "fast" reaction channels firing very much more
+	frequently than "slow" ones. These firings will be interdependent
+	if, as is usually the case, the fast and slow reactions involve some
+	of the same species. An exact stochastic simulation of such a system
+	will necessarily spend most of its time simulating the more numerous
+	fast reaction events. This is a frustratingly inefficient allocation
+	of computational effort when dynamical stiffness is present, since
+	in that case a fast reaction event will be of much less importance
+	to the system's evolution than will a slow reaction event. For such
+	situations, this paper develops a systematic approximate theory that
+	allows one to stochastically advance the system in time by simulating
+	the firings of only the slow reaction events. Developing an effective
+	strategy to implement this theory poses some challenges, but as is
+	illustrated here for two simple systems, when those challenges can
+	be overcome, very substantial increases in simulation speed can be
+	realized.},
+  doi = {10.1063/1.1824902},
+  institution = {Department of Computer Science, University of California-Santa Barbara,
+	Santa Barbara, CA 93106, USA. ycao@engineering.ucsb.edu},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jarino},
+  pmid = {15638651},
+  timestamp = {2013.07.22},
+  url = {http://dx.doi.org/10.1063/1.1824902}
+}
+
+@ARTICLE{CaoLiPetzold_2004,
+  author = {Cao, Yang and Li, Hong and Petzold, Linda},
+  title = {Efficient formulation of the stochastic simulation algorithm for
+	chemically reacting systems.},
+  journal = {J Chem Phys},
+  year = {2004},
+  volume = {121},
+  pages = {4059--4067},
+  number = {9},
+  month = {Sep},
+  __markedentry = {[jarino:]},
+  abstract = {In this paper we examine the different formulations of Gillespie's
+	stochastic simulation algorithm (SSA) [D. Gillespie, J. Phys. Chem.
+	81, 2340 (1977)] with respect to computational efficiency, and propose
+	an optimization to improve the efficiency of the direct method. Based
+	on careful timing studies and an analysis of the time-consuming operations,
+	we conclude that for most practical problems the optimized direct
+	method is the most efficient formulation of SSA. This is in contrast
+	to the widely held belief that Gibson and Bruck's next reaction method
+	[M. Gibson and J. Bruck, J. Phys. Chem. A 104, 1876 (2000)] is the
+	best way to implement the SSA for large systems. Our analysis explains
+	the source of the discrepancy.},
+  doi = {10.1063/1.1778376},
+  institution = {Department of Computer Science, University of California Santa Barbara,
+	Santa Barbara, California 93106, USA. yao@cs.ucsb.edu},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jarino},
+  pmid = {15332951},
+  timestamp = {2013.07.22},
+  url = {http://dx.doi.org/10.1063/1.1778376}
+}
+
+@ARTICLE{CaoPetzoldRathinamGillespie_2004,
+  author = {Cao, Yang and Petzold, Linda R. and Rathinam, Muruhan and Gillespie,
+	Daniel T.},
+  title = {The numerical stability of leaping methods for stochastic simulation
+	of chemically reacting systems.},
+  journal = {J Chem Phys},
+  year = {2004},
+  volume = {121},
+  pages = {12169--12178},
+  number = {24},
+  month = {Dec},
+  __markedentry = {[jarino:]},
+  abstract = {Tau-leaping methods have recently been proposed for the acceleration
+	of discrete stochastic simulation of chemically reacting systems.
+	This paper considers the numerical stability of these methods. The
+	concept of stochastic absolute stability is defined, discussed, and
+	applied to the following leaping methods: the explicit tau, implicit
+	tau, and trapezoidal tau.},
+  doi = {10.1063/1.1823412},
+  institution = {Department of Computer Science, University of California, Santa Barbara,
+	California 93106, USA. ycao@cs.ucsb.edu},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jarino},
+  pmid = {15606235},
+  timestamp = {2013.07.22},
+  url = {http://dx.doi.org/10.1063/1.1823412}
+}
+
+@ARTICLE{CaoMantyhCarlsonGillespieEtAl_1998,
+  author = {Cao, Y. Q. and Mantyh, P. W. and Carlson, E. J. and Gillespie, A.
+	M. and Epstein, C. J. and Basbaum, A. I.},
+  title = {Primary afferent tachykinins are required to experience moderate
+	to intense pain.},
+  journal = {Nature},
+  year = {1998},
+  volume = {392},
+  pages = {390--394},
+  number = {6674},
+  month = {Mar},
+  __markedentry = {[jarino:]},
+  abstract = {The excitatory neurotransmitter glutamate coexists with the peptide
+	known as substance P in primary afferents that respond to painful
+	stimulation. Because blockers of glutamate receptors reliably reduce
+	pain behaviour, it is assumed that 'pain' messages are mediated by
+	glutamate action on dorsal horn neurons. The contribution of substance
+	P, however, is still unclear. We have now disrupted the mouse preprotachykinin
+	A gene (PPT-A), which encodes substance P and a related tachykinin,
+	neurokinin A. We find that although the behavioural response to mildly
+	painful stimuli is intact in these mice, the response to moderate
+	to intense pain is significantly reduced. Neurogenic inflammation,
+	which results from peripheral release of substance P and neurokinin
+	A, is almost absent in the mutant mice. We conclude that the release
+	of tachykinins from primary afferent pain-sensing receptors (nociceptors)
+	is required to produce moderate to intense pain.},
+  doi = {10.1038/32897},
+  institution = {Department of Anatomy, W.M. Keck Foundation Center for Integrative
+	Neuroscience, University of California San Francisco, 94143-0452,
+	USA.},
+  keywords = {Animals; Cloning, Molecular; Female; Gene Targeting; Glutamic Acid,
+	physiology; Male; Mice; Mice, Inbred C57BL; Neuritis, physiopathology;
+	Neurokinin A, genetics/physiology; Nociceptors, physiology; Pain;
+	Protein Precursors, genetics/physiology; Receptors, Neurokinin-1,
+	physiology; Sensory Thresholds; Sequence Deletion; Stimulation, Chemical;
+	Substance P, genetics/physiology; Tachykinins, genetics/physiology},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jarino},
+  pmid = {9537322},
+  timestamp = {2013.07.22},
+  url = {http://dx.doi.org/10.1038/32897}
+}
+
+@ARTICLE{Gillespie_1977,
+  author = {Gillespie, D.T.},
+  title = {Exact Stochastic Simulation of Coupled Chemical Reactions},
+  journal = {The Journal of Physical Chemistry},
+  year = {1977},
+  volume = {81},
+  pages = {2340�2361},
+  number = {25},
+  doi = {10.1021/j100540a008},
+  owner = {jarino},
+  timestamp = {2013.07.22}
+}
+
+@ARTICLE{GillespieCaoSanftPetzold_2009,
+  author = {Gillespie, Dan T. and Cao, Yang and Sanft, Kevin R. and Petzold,
+	Linda R.},
+  title = {The subtle business of model reduction for stochastic chemical kinetics.},
+  journal = {J Chem Phys},
+  year = {2009},
+  volume = {130},
+  pages = {064103},
+  number = {6},
+  month = {Feb},
+  __markedentry = {[jarino:]},
+  abstract = {This paper addresses the problem of simplifying chemical reaction
+	networks by adroitly reducing the number of reaction channels and
+	chemical species. The analysis adopts a discrete-stochastic point
+	of view and focuses on the model reaction set S(1)<=>S(2)-->S(3),
+	whose simplicity allows all the mathematics to be done exactly. The
+	advantages and disadvantages of replacing this reaction set with
+	a single S(3)-producing reaction are analyzed quantitatively using
+	novel criteria for measuring simulation accuracy and simulation efficiency.
+	It is shown that in all cases in which such a model reduction can
+	be accomplished accurately and with a significant gain in simulation
+	efficiency, a procedure called the slow-scale stochastic simulation
+	algorithm provides a robust and theoretically transparent way of
+	implementing the reduction.},
+  doi = {10.1063/1.3072704},
+  institution = {Dan T. Gillespie Consulting, 30504 Cordoba Place, Castaic, California
+	91384, USA. gillespiedt@mailaps.org},
+  keywords = {Kinetics; Models, Chemical; Sensitivity and Specificity; Stochastic
+	Processes},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jarino},
+  pmid = {19222263},
+  timestamp = {2013.07.22},
+  url = {http://dx.doi.org/10.1063/1.3072704}
+}
+
+@ARTICLE{GillespiePetzoldCao2007,
+  author = {Gillespie, D. T. and Petzold, L. R. and Cao, Y.},
+  title = {Comment on "nested stochastic simulation algorithm for chemical kinetic
+	systems with disparate rates" [J. Chem. Phys. 123, 194107 (2005)].},
+  journal = {J Chem Phys},
+  year = {2007},
+  volume = {126},
+  pages = {137101; discussion 137102},
+  number = {13},
+  month = {Apr},
+  __markedentry = {[jarino:]},
+  doi = {10.1063/1.2567036},
+  institution = {Dan T. Gillespie Consulting, 30504 Cordoba Place, Castaic, California
+	91384, USA.},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jarino},
+  pmid = {17430072},
+  timestamp = {2013.07.22},
+  url = {http://dx.doi.org/10.1063/1.2567036}
+}
+
+@BOOK{HanskiGilpin1996,
+  title = {Metapopulation Biology: Ecology, Genetics, and Evolution},
+  publisher = {Academic Press},
+  year = {1997},
+  author = {Hanski, I.~A. and Gilpin, M.~E.}
+}
+
+@ARTICLE{LiCaoPetzoldGillespie_2008,
+  author = {Li, Hong and Cao, Yang and Petzold, Linda R. and Gillespie, Daniel
+	T.},
+  title = {Algorithms and software for stochastic simulation of biochemical
+	reacting systems.},
+  journal = {Biotechnol Prog},
+  year = {2008},
+  volume = {24},
+  pages = {56--61},
+  number = {1},
+  __markedentry = {[jarino:]},
+  abstract = {Traditional deterministic approaches for simulation of chemically
+	reacting systems fail to capture the randomness inherent in such
+	systems at scales common in intracellular biochemical processes.
+	In this manuscript, we briefly review the state of the art in discrete
+	stochastic and multiscale algorithms for simulation of biochemical
+	systems and we present the StochKit software toolkit.},
+  doi = {10.1021/bp070255h},
+  institution = {arbara, Santa Barbara, California 93106, USA.},
+  keywords = {Algorithms; Computer Simulation; Models, Chemical; Software},
+  language = {eng},
+  medline-pst = {ppublish},
+  owner = {jarino},
+  pmid = {17894470},
+  timestamp = {2013.07.22},
+  url = {http://dx.doi.org/10.1021/bp070255h}
+}
+
+@BOOK{Murray1993,
+  title = {Mathematical Biology},
+  publisher = {Springer-Verlag},
+  year = {1993},
+  author = {Murray, J.D.},
+  address = {Berlin Heidelberg},
+  edition = {2nd}
+}
+
+@BOOK{Murray2003b,
+  title = {Mathematical Biology II: Spatial Models and Biomedical Applications},
+  publisher = {Springer-Verlag},
+  year = {1993},
+  author = {Murray, J.D.},
+  address = {Berlin Heidelberg},
+  owner = {jarino},
+  timestamp = {2013.05.08}
+}
+
+@ARTICLE{NeubertKlepacVdD2002,
+  author = {Neubert, M.G. and Klepac, P. and van den Driessche, P.},
+  title = {Stabilizing dispersal delays in predator-prey metapopulation models},
+  journal = {Theor. Pop. Biol.},
+  year = {2002},
+  volume = {61},
+  pages = {339-347},
+  owner = {jarino},
+  timestamp = {2013.05.08}
+}
+
+@BOOK{NisbetGurney1982,
+  title = {Modelling Fluctuating Populations},
+  publisher = {John Wiley and Sons},
+  year = {1982},
+  author = {Nisbet, R.M. and Gurney, W.S.C.},
+  owner = {jarino},
+  timestamp = {2013.05.08}
+}
+
+@BOOK{Renshaw1991,
+  title = {Modelling Biological Populations in Space and Time},
+  publisher = {Cambridge},
+  year = {1991},
+  author = {Renshaw},
+  owner = {jarino},
+  timestamp = {04.08.2008}
+}
+
+@UNPUBLISHED{Ruan2003,
+  author = {Ruan, S.},
+  title = {Stability and bifurcations in predator-prey systems with discrete
+	delay},
+  note = {Lecture Notes of the 2002 Marrakech School on Delay Differential
+	Equations and Applications},
+  owner = {jarino},
+  timestamp = {2013.05.08}
+}
+
+@ARTICLE{SmithHL1986,
+  author = {Smith, H.L.},
+  title = {Periodic solutions of periodic competitive and cooperative systems},
+  journal = {SIAM J. Math. Anal.},
+  year = {1986},
+  volume = {17},
+  pages = {1289-1318},
+  number = {6},
+  owner = {jarino},
+  timestamp = {19.11.2006}
+}
+
+@BOOK{SmithWaltman1995,
+  title = {The Theory of the Chemostat -- Dynamics of Microbial Competition},
+  publisher = {Cambridge University Press},
+  year = {1995},
+  author = {Smith, H.L. and Waltman, P.},
+  owner = {jarino},
+  timestamp = {2013.05.08}
+}
+
+@ARTICLE{SoWuZou2001,
+  author = {So, J. W.-H. and Wu, J. and Zou, X.},
+  title = {Structured population on two patches: modeling dispersal and delay},
+  journal = {J. Math. Biol.},
+  year = {2001},
+  volume = {43},
+  pages = {37-51},
+  owner = {jarino},
+  timestamp = {2013.05.08}
+}
+
+@ARTICLE{TengChen2004,
+  author = {Teng, Z. and Chen, L.},
+  title = {Permanence and extinction of periodic predator-prey systems in a
+	patchy environment with delay},
+  journal = {Nonlinear Analysis: Real World Applications},
+  year = {2004},
+  volume = {4},
+  pages = {335-364},
+  owner = {jarino},
+  timestamp = {2013.05.08}
+}
+
+@BOOK{Thieme2003,
+  title = {Mathematics in Population Biology},
+  publisher = {Princeton University Press},
+  year = {2003},
+  author = {Thieme, H.R.},
+  series = {Princeton Series in Theoretical and Computational Biology},
+  owner = {jarino},
+  timestamp = {2013.05.08}
+}
+
+@ARTICLE{WangZhien1997,
+  author = {Wang, W. and Zhien, M.},
+  title = {Asymptotic behavior of a predator-prey system with diffusion and
+	delays},
+  journal = {J. Math. Anal. Appl.},
+  year = {1997},
+  volume = {206},
+  pages = {191-204},
+  owner = {jarino},
+  timestamp = {2013.05.08}
+}
+
+@ARTICLE{WeisserJansenHassell1997,
+  author = {Weisser, W.W. and Jansen, V.A.A. and Hassell, M.P.},
+  title = {The effects of a pool of dispersers on host-parasitoid systems},
+  journal = {J. theor. Biol.},
+  year = {1997},
+  volume = {189},
+  pages = {413-425},
+  owner = {jarino},
+  timestamp = {2013.05.08}
+}
+
+@ARTICLE{ZhangWang2003,
+  author = {Zhang, Z. and Wang, Z.},
+  title = {Periodic solutions of two-patches predator-prey dispersion models
+	with continuous delays},
+  journal = {Math. Nachr.},
+  year = {2003},
+  volume = {259},
+  pages = {99-108},
+  owner = {jarino},
+  timestamp = {2013.05.08}
+}
+
+@BOOK{LevinPowellSteele1993,
+  title = {Patch Dynamics},
+  publisher = {Springer-Verlag},
+  year = {1993},
+  editor = {Levin, S.~A. and Powell, T.~M. and Steele, J.~H.},
+  volume = {96},
+  series = {Lecture Notes in Biomathematics},
+  owner = {jarino},
+  timestamp = {2013.05.08}
+}
+
+@comment{jabref-meta: selector_publisher:}
+
+@comment{jabref-meta: selector_author:}
+
+@comment{jabref-meta: selector_journal:}
+
+@comment{jabref-meta: selector_keywords:}
+

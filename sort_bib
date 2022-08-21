@@ -1,0 +1,4 @@
+#!/bin/bash
+
+bibtool -s --preserve.key.case=on --preserve.keys=on --print.align.key=0 -o $1.sorted.bib $1.bib
+mv $1.sorted.bib $1.bib
